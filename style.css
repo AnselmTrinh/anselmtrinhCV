@@ -151,8 +151,8 @@ page[size="A4"] {
   background-color: #b7af9c;
   border-color: #b7af9c;
   width: 1px;
-  height: 228px;
-  left: -20px;
+  height: 205px;
+  margin-left: 30px;
   margin-top: 17px;
 }
 
@@ -163,7 +163,7 @@ page[size="A4"] {
   border-color: #b7af9c;
   width: 1px;
   height: 167px;
-  margin-left: 46px;
+  margin-left: 30px;
   margin-top: 20px;
 }
 
@@ -203,7 +203,7 @@ page[size="A4"] {
   height: 20px;
   border-radius: 50%;
   background-color: #b4b29d;
-  margin-top: 120px;
+  margin-top: 117px;
   margin-left: 94px;
 }
 
@@ -212,7 +212,7 @@ page[size="A4"] {
   height: 20px;
   border-radius: 50%;
   background-color: #b4b29d;
-  margin-top: 55px;
+  margin-top: 30px;
   margin-left: 94px;
 }
 
@@ -222,7 +222,7 @@ page[size="A4"] {
   border-radius: 50%;
   background-color: #b4b29d;
   margin-top: 20px;
-  margin-left: 110px;
+  margin-left: 94px;
 }
 
 #hr_round_5 {
@@ -231,7 +231,7 @@ page[size="A4"] {
   border-radius: 50%;
   background-color: #b4b29d;
   margin-top: 65px;
-  margin-left: 110px;
+  margin-left: 94px;
 }
 
 #hr_round_6 {
@@ -240,7 +240,7 @@ page[size="A4"] {
   border-radius: 50%;
   background-color: #b4b29d;
   margin-top: 52px;
-  margin-left: 110px;
+  margin-left: 94px;
 }
 
 /* ICON */
@@ -276,4 +276,12 @@ h4 {
   font-family: "IBM Plex Sans Condensed", sans-serif;
   font-family: "Rubik", sans-serif;
   font-weight: 100;
+}
+
+/* FORMATIONS */
+.texte_horizontale1{
+  margin-right: 10px
+}
+.texte_horizontale2 {
+  margin-right: 30px;
 }
