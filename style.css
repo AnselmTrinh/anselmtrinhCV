@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&family=Roboto+Condensed&display=swap");
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+  background: #525659;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+#barre-verticale {
+  font-size: 15px;
+  width: 220px;
+  height: 903px;
+  background-color: #d8d7dc;
+  margin-left: 10%;
+  /* position: absolute;
+  left: 65px; 
+  top: 0;  */
+}
+
+.competences {
+  line-height: 0;
+  margin-top: 0px;
+}
+
+.vert_div {
+  display: flex;
+}
+
+.vert_round {
+  margin-top: 15px;
+  margin-right: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #b7af9c;
+}
+
+.vert_round_2 {
+  margin-top: 13px;
+  margin-right: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #b7af9c;
+}
+.vert_round_bigger {
+  margin-top: 12px;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b7af9c;
+}
+.vert_round_reseaux {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #b7af9c;
+}
+/* Style de la barre horizontale */
+
+#barre-horizontale {
+  width: 100%;
+  height: 220px;
+  background-color: #d8d7dc;
+}
+
+#img {
+  width: 220px;
+  margin-left: 10%;
+}
+
+#carre_beige {
+  z-index: 500;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #b7af9c;
+  margin-left: 280px;
+  margin-top: 100px;
+}
+
+.titre {
+  display: flex;
+}
+
+.prenom {
+  line-height: 0.6;
+  z-index: 1000;
+  margin-top: 92px;
+  margin-left: 27px;
+  text-align: center;
+}
+
+#prenom {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#contact {
+  margin-top: 0px;
+  padding-top: 20px;
+}
+#texte_vertical {
+  padding-left: 15px;
+  line-height: 1;
+}
+
+.hr_court {
+  margin-right: 15px;
+}
+
+/* CENTRAGE BODY */
+#centrage_body {
+  display: flex;
+}
+
+#body {
+  margin-left: 30px;
+  line-height: 1;
+}
+
+.hr_long {
+  width: 420px;
+}
+
+.body_experience {
+  display: flex;
+}
+
+#hr_vertical_1 {
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%, 100);
+  background-color: #b7af9c;
+  border-color: #b7af9c;
+  width: 1px;
+  height: 228px;
+  left: -20px;
+  margin-top: 17px;
+}
+
+#hr_vertical_2 {
+  border: none;
+  border-left: 1px solid hsla(200, 10%, 50%, 100);
+  background-color: #b7af9c;
+  border-color: #b7af9c;
+  width: 1px;
+  height: 167px;
+  margin-left: 46px;
+  margin-top: 20px;
+}
+
+.body_formation {
+  display: flex;
+}
+
+.body_interet {
+  display: flex;
+}
+
+#trois_carre {
+  width: 400px;
+  padding-top: 10px;
+  text-align: center;
+  margin: auto;
+  display: flex;
+}
+
+/* Rounds */
+
+.hr_rounds {
+  position: absolute;
+}
+
+#hr_round_1 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b4b29d;
+  margin-top: 17px;
+  margin-left: 94px;
+}
+
+#hr_round_2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b4b29d;
+  margin-top: 120px;
+  margin-left: 94px;
+}
+
+#hr_round_3 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b4b29d;
+  margin-top: 55px;
+  margin-left: 94px;
+}
+
+#hr_round_4 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b4b29d;
+  margin-top: 20px;
+  margin-left: 110px;
+}
+
+#hr_round_5 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b4b29d;
+  margin-top: 65px;
+  margin-left: 110px;
+}
+
+#hr_round_6 {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #b4b29d;
+  margin-top: 52px;
+  margin-left: 110px;
+}
+
+/* ICON */
+#mail_icon {
+  width: 12px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+#telephone_icon {
+  width: 12px;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+/* FONTS */
+p {
+  font-family: "Figtree", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: small;
+}
+.tel_mail {
+  margin-top: 15px;
+}
+h4 {
+  font-family: "Figtree", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+}
+.alternant {
+  font-family: "Figtree", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-weight: 100;
+}
